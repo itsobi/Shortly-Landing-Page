@@ -1,0 +1,74 @@
+:root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --blue: #31326f;
+    --light-blue: #2e5bff;
+    --primary-color: #9d0191;
+    --secondary-color: #db6400;
+    --grey: #eee;
+    --dark-grey: #222831;
+  }
+
+  /* Tablet MQ */
+  /* Tablet MQ */
+  /* Tablet MQ */
+@media screen and (max-width:900px) {
+    .features-section {
+        height: 100%;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature-image img {
+        transform: translateY(0);
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .remove {
+       display: none; 
+    }
+
+    .cta {
+        display: block;
+    }
+
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    .nav-ul {
+        justify-content: center;
+        background-color: rgba(0,0,0,.2);
+        border-bottom: 1px solid var(--white);
+        border-radius: 5px;
+        padding: 5px 0;
+        width: 70%;
+        margin: 0 auto;
+        
+    }
+
+    .consult-image img {
+        width: 100%;
+    }
+
+    .features-section {
+        height: 100%;
+        width: 100%;
+    }
+
+    .feature-text {
+        text-align: center;
+    }
+    
+    .features {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
